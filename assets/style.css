@@ -8,6 +8,20 @@
   --border: #dcdcd2;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151713;
+    --surface: #1e211b;
+    --text: #e8e9e3;
+    --muted: #a3a89c;
+    --accent: #9cc46f;
+    --accent-ink: #151713;
+    --border: #33372e;
+  }
+}
+
+html { scroll-behavior: smooth; }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -49,11 +63,22 @@ a { color: var(--accent); }
 .card .stack { color: var(--muted); font-size: .9rem; }
 .card a { margin-top: auto; font-weight: 500; text-decoration: none; }
 
+.linha { list-style: none; border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 26px; }
+.linha li { position: relative; }
+.linha li::before { content: ""; position: absolute; left: -29px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+.linha h3 { font-size: 1.15rem; margin: 2px 0 4px; }
+.linha p { color: var(--muted); max-width: 60ch; }
+.quando { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); font-weight: 500; }
+
+.card { transition: transform .15s ease, border-color .15s ease; }
+.card:hover { transform: translateY(-3px); border-color: var(--accent); }
+
 .contatos { list-style: none; display: grid; gap: 8px; }
 
 .rodape { padding: 32px 0; color: var(--muted); font-size: .9rem; border-top: 1px solid var(--border); }
 
 @media (max-width: 560px) {
-  .nav ul { gap: 14px; font-size: .9rem; }
+  .nav { flex-direction: column; gap: 10px; }
+  .nav ul { gap: 14px; font-size: .9rem; flex-wrap: wrap; justify-content: center; }
   .hero { padding: 56px 0 40px; }
 }
