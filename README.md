@@ -64,3 +64,6 @@ cd PortfolioHUB
 - E-mail: gustavospindola1710@gmail.com
 - LinkedIn: [gustavo-rodrigues-sousa-spindola](https://www.linkedin.com/in/gustavo-rodrigues-sousa-spindola-3925353b5/)
 - GitHub: [@Gust4voRSS](https://github.com/Gust4voRSS)
+
+- ## Status
+Versão 1.0 publicada em 25/10/2026.
