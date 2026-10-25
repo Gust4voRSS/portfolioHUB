@@ -2,7 +2,7 @@
 
 > Repositório central dos meus projetos acadêmicos e pessoais, organizado com versionamento Git e publicado com GitHub Pages.
 
-[![GitHub Pages](https://img.shields.io/badge/site-online-2ea44f?logo=github)](https://gust4vorss.github.io/PortfolioHUB/)
+[![GitHub Pages](https://img.shields.io/badge/site-online-2ea44f?logo=github)](https://gust4vorss.github.io/portfolioHUB/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-perfil-0A66C2?logo=linkedin)](https://www.linkedin.com/in/gustavo-rodrigues-sousa-spindola-3925353b5/)
 ![Versão](https://img.shields.io/badge/vers%C3%A3o-1.1-blue)
 
@@ -12,7 +12,7 @@ Estudante do **2º semestre de Análise e Desenvolvimento de Sistemas**. Passei 
 
 ## 🌐 Site do portfólio
 
-**https://gust4vorss.github.io/PortfolioHUB/**
+**https://gust4vorss.github.io/portfolioHUB/**
 
 ## 📁 Estrutura do repositório
 
